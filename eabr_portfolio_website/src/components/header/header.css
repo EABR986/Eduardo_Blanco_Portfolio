@@ -1,6 +1,6 @@
 header{
-    height: 125vh;
-    padding-top: 2rem;
+    height: 110vh;
+    padding-top: 1rem;
   overflow: hidden;
 }
 .header__container{
@@ -32,13 +32,11 @@ header{
     height: 2rem;
     background: var(--color-primary);
 }
+
 .meImage{
-    width: 20rem;
-    height: 20rem;
-    border-radius: 50%;
-    
-    
+    border-radius: 60% 60% 0 0;
 }
+
 
 .me{
    background: linear-gradient(var(--color-primary), transparent);
@@ -46,7 +44,7 @@ header{
     height:25rem;
     position: absolute;
     left:calc(50% - 13rem);
-    margin-top: 4rem;
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,18 +62,49 @@ header{
     font-size: 0.9rem;
 }
 
-@media screen and (max-width: 1025px){
-    .header{
+@media screen and (max-width: 1024px){
+    header{
         height: 68vh;
+    }
+    .me{
+        width:40rem;
+        height:40rem;
+        position: absolute;
+        left:14%
     }
 
 }
 @media screen and (max-width:600px){
-    .header{
-        height: 100vh;
+    header{
+        height: 70vh;
+      
     }
     .header__socials, .scroll__down{
         display: none;
     }
+   
+    .me{
+        width:20rem;
+        height:20rem;
+        position: absolute;
+        left:2%
+    }
 
+}
+
+@media screen and (min-width:1300px){
+        
+    .me{
+        width:40rem;
+        height:40rem;
+        position: absolute;
+        left:calc(50% - 22rem)
+    }
+
+    header{
+        height: 90vh;
+        padding-top: 7rem;
+   
+    }
+    
 }
