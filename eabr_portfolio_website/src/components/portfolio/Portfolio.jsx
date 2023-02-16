@@ -13,7 +13,7 @@ const data = [
       category: 'Frontend',
       image: IMG1,
       title: "Poke Dex",
-      desc: "This is a vite act project that uses the pokeapi to fetch the data of the pokemon. The project manipulate the dom so it can display the data of the pokemon. The project. ",
+      desc: "This is a vite act project that uses the pokeapi to fetch the data of the pokemon. The project manipulate the dom so it can display the data of the pokemon.",
       demo: 'https://poke-dex-lovat.vercel.app/',
       github: 'https://github.com/EABR986/poke-dex'
   },
@@ -31,9 +31,9 @@ const data = [
     category: 'Frontend',
     image: IMG3,
     title: "Avengers App",
-    desc: "esto es una descripcion",
-    demo: 'http://egatortutorials.com',
-        github: 'https://github.com/EABR986'
+    desc: "This is a fun one, is an app that fetches the data of the avengers from the marvel data base I created and show what ever you are looking for. The app also uses React Router to navigate between the pages. It uses Tailwind to give some CSS styles. (NOTE: the backend server may be slpeeing so it may take a while to load the data, if not working please refresh the page.)",
+    demo: 'https://avengers-app.onrender.com/',
+        github: 'https://github.com/EABR986/Avengers-React'
   },
   {
       id: 4,
