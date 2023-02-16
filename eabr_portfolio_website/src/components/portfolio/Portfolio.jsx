@@ -57,7 +57,7 @@ const data = [
     id: 6,
     category: 'Frontend',
     image: IMG6,
-    title: "tic-tac-toe",
+    title: "Avengers App",
     desc: "esto es una descripcion",
     demo: 'https://tic-tac-toe-eabr.vercel.app/',
         github: 'https://github.com/EABR986/tic-tac-toe'
