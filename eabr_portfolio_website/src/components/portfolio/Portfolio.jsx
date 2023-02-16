@@ -21,10 +21,10 @@ const data = [
       id: 2,
       category: 'Frontend',
       image: IMG2,
-      title: "Avengers App",
-      desc: "esto es una descripcion",
-      demo: 'http://egatortutorials.com',
-        github: 'https://github.com/EABR986'
+      title: "tic-tac-toe",
+    desc: "This is a React Vite Project that uses React hooks like useState and useEffect. The game is a two player game where the first player to get three in a row wins. The game also keeps track of the score and displays the winner of the game. The game also has a reset button that resets the game and the score.",
+    demo: 'https://tic-tac-toe-eabr.vercel.app/',
+        github: 'https://github.com/EABR986/tic-tac-toe'
   },
   {
     id: 3,
@@ -39,19 +39,19 @@ const data = [
       id: 4,
       category: 'Frontend',
       image: IMG4,
-      title: "Avengers App",
-      desc: "esto es una descripcion",
-      demo: 'http://egatortutorials.com',
-        github: 'https://github.com/EABR986'
+      title: "Flip-colors",
+      desc: " This is a Javascript vainilla project that uses the DOM to change the background color of the page. The project also uses the Math.random() method to generate random colors. The project also has a button that changes the background color of the page.",
+      demo: 'https://flip-color-vite.vercel.app/',
+        github: 'https://github.com/EABR986/Flip-color-vite'
   },
   {
     id: 5,
     category: 'Frontend',
     image: IMG5,
-    title: "Avengers App",
-    desc: "esto es una descripcion",
-    demo: 'http://egatortutorials.com',
-        github: 'https://github.com/EABR986'
+    title: "React authentification",
+    desc: "This is a React Vite Project that uses Authorization and Authentication. The project uses Local host to store the user data. The project also uses React Router to navigate between the pages. The project also uses React hooks like useState and useEffect.",
+    demo: 'https://react-auth-peach.vercel.app/',
+        github: 'https://github.com/EABR986/react-auth'
   },
   {
     id: 6,
@@ -59,8 +59,8 @@ const data = [
     image: IMG6,
     title: "tic-tac-toe",
     desc: "esto es una descripcion",
-    demo: 'http://egatortutorials.com',
-        github: 'https://github.com/EABR986'
+    demo: 'https://tic-tac-toe-eabr.vercel.app/',
+        github: 'https://github.com/EABR986/tic-tac-toe'
   }
 ]
 
@@ -80,7 +80,7 @@ const Portfolio = () => {
               <img src={image} alt={title} />
             </div>
             <h3>{title}</h3>
-            <p>{desc}</p>
+            <h4>{desc}</h4>
             <div className="portfolio__item-cta">
             <a href={github} className='btn' target='_blank' rel='noreferrer' >View Code</a>
             <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
