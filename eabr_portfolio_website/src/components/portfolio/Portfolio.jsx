@@ -12,10 +12,10 @@ const data = [
       id: 1,
       category: 'Frontend',
       image: IMG1,
-      title: "Avengers App",
-      desc: "esto es una descripcion",
-      demo: 'http://egatortutorials.com',
-      github: 'https://github.com/EABR986'
+      title: "Poke Dex",
+      desc: "This is a vite act project that uses the pokeapi to fetch the data of the pokemon. The project manipulate the dom so it can display the data of the pokemon. The project. ",
+      demo: 'https://poke-dex-lovat.vercel.app/',
+      github: 'https://github.com/EABR986/poke-dex'
   },
   {
       id: 2,
@@ -83,7 +83,7 @@ const Portfolio = () => {
             <h4>{desc}</h4>
             <div className="portfolio__item-cta">
             <a href={github} className='btn' target='_blank' rel='noreferrer' >View Code</a>
-            <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href={demo} className='btn btn-primary' target='_blank' rel='noreferrer'>Live Demo</a>
             </div>
           </artice>
           )
