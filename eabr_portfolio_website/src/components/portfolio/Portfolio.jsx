@@ -57,10 +57,10 @@ const data = [
     id: 6,
     category: 'Frontend',
     image: IMG6,
-    title: "Avengers App",
-    desc: "esto es una descripcion",
-    demo: 'https://tic-tac-toe-eabr.vercel.app/',
-        github: 'https://github.com/EABR986/tic-tac-toe'
+    title: "Drawing app",
+    desc: "This is a simple drawing app using the canvas elememt in HTML. The project uses Canvas Api. It have many diferent Mouse events and properties for looking the mouse position. ",
+    demo: 'https://drawing-app-kappa.vercel.app//',
+        github: 'https://github.com/EABR986/drawing-app'
   }
 ]
 
