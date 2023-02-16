@@ -13,7 +13,7 @@ const data = [
       category: 'Frontend',
       image: IMG1,
       title: "Poke Dex",
-      desc: "This is a vite act project that uses the pokeapi to fetch the data of the pokemon. The project manipulate the dom so it can display the data of the pokemon. The project. ",
+      desc: "This is a vite act project that uses the pokeapi to fetch the data of the pokemon. The project manipulate the dom so it can display the data of the pokemon.",
       demo: 'https://poke-dex-lovat.vercel.app/',
       github: 'https://github.com/EABR986/poke-dex'
   },
