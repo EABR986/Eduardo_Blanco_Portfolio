@@ -6,6 +6,7 @@ import IMG3 from '../../assets/project3.jpg'
 import IMG4 from '../../assets/project4.jpg'
 import IMG5 from '../../assets/project5.jpg'
 import IMG6 from '../../assets/project6.jpg'
+import IMG7 from '../../assets/project7.jpg'
 
 const data = [
   {
@@ -61,6 +62,15 @@ const data = [
     desc: "This is a simple drawing app using the canvas elememt in HTML. The project uses Canvas Api. It have many diferent Mouse events and properties for looking the mouse position. ",
     demo: 'https://drawing-app-kappa.vercel.app//',
         github: 'https://github.com/EABR986/drawing-app'
+  },
+  {
+    id: 7,
+    category: 'Frontend',
+    image: IMG7,
+    title: "Notes app",
+    desc: "This is a cool notes app that  uses local storage to store the notes dosnt matter if you refresh the page the notes will still be there. Also it plays with the class Hidden to show or Hide the notes. it works with the Marked library to make the notes look better. ",
+    demo: 'https://notes-app-one-ruby.vercel.app/',
+        github: 'https://github.com/EABR986/notes-app'
   }
 ]
 
