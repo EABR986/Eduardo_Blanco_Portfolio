@@ -33,7 +33,7 @@ const About = () => {
               </article>
           </div>
           <p>
-          I am a Full stack developer who has more affinity with the front end using the React framework mainly and with the ability to manipulate, to a lesser extent, Angular.
+          I am a Full stack developer who has more affinity with the front end using React  mainly and with the ability to manipulate, to a lesser extent, Angular.
 
 It makes good use of JavaScript methods and logic such as manipulating the HTML Dom, as well as making use of libraries such as Tailwind and Bootstarp to create unique applications using CSS. Also, I have the ability to work with control systems mainly Git.
 
